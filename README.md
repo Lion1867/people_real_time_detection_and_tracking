@@ -59,6 +59,8 @@ YOLO('rtdetr-x.pt')
 
 ```bash
 docker-compose up --build
+```
+
 Сервисы будут доступны:
 
 FastAPI: http://localhost:8000/docs
@@ -75,8 +77,7 @@ Gradio UI: http://localhost:7860
 
 Нажмите «Submit» — через несколько секунд получите обработанное видео
 
-Через FastAPI (программно)
-```
+Через FastAPI (программно):
 
 ```bash
 curl -X POST "http://localhost:8000/detect" \
