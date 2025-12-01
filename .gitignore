@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+*.log
+*.tmp
+*.mp4
+*.pt
+/tmp/
+fastapi-app/models/*.pt
+*.idea/
+.vscode/
+.DS_Store
